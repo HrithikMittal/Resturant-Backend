@@ -1,6 +1,6 @@
 <h3>Checkout</h3>
 
-<form id="userOrderCreate" action="/api/orders" method="POST">
+<form id="userOrderCreate" action="./userOrderSuccess.html" method="POST">
     <div class="formError mb-3 alert alert-danger"></div>
     <div class="formSuccess mb-3 alert alert-success"></div>
     <div class="form-group">
@@ -10,9 +10,8 @@
     <div class="form-group">
         <p>Order Total: <b id="orderTotal"></b></p>
     </div>
-    <button type="submit" class="btn btn-dark"><a style="text-decoration:none;color:white" href="http://localhost:3000/user/order/success">Checkout</a></button>
+    <button type="submit" class="btn btn-dark">Checkout</button>
 </form>
 
 <!-- Load page specific JavaScript -->
 <script type="text/javascript" charset="UTF-8" src="/assets/scripts/userOrderCreate.js"></script>
-<!--  -->
